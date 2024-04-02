@@ -1,0 +1,163 @@
+*,
+::before
+::after{
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: black;
+}
+
+@font-face {
+    font-family: "eurostile";
+    src: url("/eurostile-cufonfonts/eurostile.TTF");
+}
+
+
+h1 {
+    font-family: "eurostile";
+    margin: 0;
+}
+
+p, h2 {
+    font-family: sans-serif;
+    color: black;
+    font-weight: 200;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: "EuroStyle";
+    font-family: eurostile;
+    background-color: rgb(255, 255, 255);
+}
+
+#nav-bar {
+    height: fit-content;
+    width: 100%;
+    /* background-color: rgb(117, 16, 247); */
+    background-color: rgba(116, 16, 247, 0);
+    margin: 0;
+    
+}
+
+#nav-bar-container{
+    margin:  0 1rem;
+    padding: 1rem;
+    max-width: 80rem;
+    justify-content: space-between;
+    color: #6a04ed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-bar-container h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#ig-btn {
+    padding: .5rem;
+    background-color: transparent;
+    border: none;
+}
+
+#ig-btn:hover {
+    cursor: pointer;
+}
+
+#ig-img {
+    height: 3rem;
+    width: 3rem;
+}
+
+#first-content {
+    margin: 0;
+    padding: 1rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 0;
+}
+
+#first-content h1 {
+    margin-top: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.9rem;
+    
+}
+
+#first-content h2 {
+    margin-top: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    /* padding-inline: 1rem; */
+    
+}
+
+#foto-leo {
+    width: auto;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+#img-1 {
+    width: auto;
+    height: 15rem;
+}
+
+#second-content {
+    height: fit-content;
+    width: 100%;
+    background-color: #6a04ed;
+}
+
+#presentation {
+    color: white;
+    /* Sentido de las agujas del reloj */
+    padding: 3rem 1rem 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#presentation h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+#presentation h2 {
+    color: white;
+    font-weight: 200;
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+#proyect-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#third-content {
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+#third-content h1 {
+    text-align: justify;
+}
+
+.proyect-title {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #6a04ed;
+    font-weight: 700;
+    
+}
