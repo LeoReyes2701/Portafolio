@@ -7,7 +7,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="index.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +17,7 @@
         <div id="nav-bar-container">
             <h1>Portafolio</h1>
             
-            <a href="https://www.instagram.com/leoreyes2701/" target="_blank">
+            <a href="https://www.instagram.com/leoreyes2701/" target="_blank" rel="noopener noreferrer">
                 <button id="ig-btn"> 
                 <img src="Img/instagram-logo.svg" alt="Ig-logo" id="ig-img">
                 </button>
@@ -25,8 +27,10 @@
     </nav>
 
     <div id="first-content">
+        <div id="first-content-h1">
         <h1>Estudiante, Programador, Emprendedor, Bilingüe</h1>
         <h2>Estudiante de ingeniería informática, programador en proceso y apacionado del mundo de los negocios</h2>
+        </div>
 
         <img src="Img/Foto-Leo.svg" alt="Foto-Leo" id="foto-leo">
 
@@ -35,8 +39,12 @@
 
     <div id="second-content">
         <div id="presentation">
+            <div id="presentation-div">
             <h1>Hola soy Leo, un placer.</h1>
-            <h2>Como ya mencione arriba actuamente estoy estudiando ingeniería, también estoy haciendo un curso de Programacion Full Stack, actualmente tengo conocimiento en los siguientes lenguajes de programación: HTML, CSS, JAVA SCRIPT y PYTHON.</h2>
+            <h2>Estoy estudiando ingeniería informática en la Universidad Católica Andres Bello, también estoy haciendo un curso de Programacion Full Stack, tengo un nivel de Inglés medio-avanzado, actualmente tengo conocimiento en los siguientes lenguajes de programación: HTML, CSS, JAVA SCRIPT y PYTHON.</h2>
+            </div>
+
+            <img src="Img/2.svg" alt="Foto-completementaria" id="img-2">
         </div>
     </div>
 
@@ -45,32 +53,36 @@
         <div class="proyects">
             <ul id="proyect-list">
 
-                <div>
+                <li>
                 <a  class="proyect-title" href="https://leoreyes2701.github.io/Lista-de-tareas/" target="_blank" >Lista de Tareas</a>
                 <h2>En esta pagina encontraras una lista de tareas, en la cual podrás ver las tareas que tengas pendientes, las completas, y las incompletas.</h2>
-                </div>
+                </li>
 
-                <div>
+                <li>
                 <a class="proyect-title" href="https://leoreyes2701.github.io/Lista-de-contactos/" target="_blank" >Lista de contactos</a>
                 <h2>Esta es una lista de tarea en la que vas a poder añadir, borrar y editar contactos.</h2>
-                </div>
+                </li>
 
-                <div>
+                <li>
                 <a class="proyect-title" href="https://leoreyes2701.github.io/Pokedex-1ra-Generacion/" target="_blank" >Pokedex 1era generacion</a>
                 <h2>Esta es una pokedex en la que vas a poder visualizar las caracteristicas de todos los pokemon de la primera generacion.</h2>
-                </div>
+                </li>
 
             </ul>
 
             
         </div>
 
-        <div id="githut-contact">
-            <h1>Para mas informacion visita mi GitHub</h1>
+        <div id="github-contact">
+            <h1>Para más información visita mi <a id="github-link" href="https://github.com/LeoReyes2701" target="_blank" rel="noopener noreferrer">GitHub</a></h1>
             
         </div>
     </div>
 
+    <footer>
+        <h1>Contáctame:</h1>
+        <h2>reyesleonardo2006@gmail.com</h2>
+    </footer>
 
 </body>
 </html>

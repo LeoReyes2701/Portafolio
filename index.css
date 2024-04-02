@@ -7,14 +7,9 @@
     border-color: black;
 }
 
-@font-face {
-    font-family: "eurostile";
-    src: url("/eurostile-cufonfonts/eurostile.TTF");
-}
 
-
-h1 {
-    font-family: "eurostile", Arial, Helvetica, sans-serif;
+h1, a {
+    font-family: "Archivo Narrow", sans-serif;
     margin: 0;
 }
 
@@ -112,10 +107,18 @@ body{
     height: 15rem;
 }
 
+#img-2 {
+    width: auto;
+    height: 20rem;
+}
+
 #second-content {
     height: fit-content;
     width: 100%;
     background-color: #6a04ed;
+}
+#second-content h2 {
+    font-weight: 900;
 }
 
 #presentation {
@@ -160,4 +163,119 @@ body{
     color: #6a04ed;
     font-weight: 700;
     
+}
+
+#github-contact {
+    padding-inline: .5rem;
+}
+
+#github-link {
+    color: #6a04ed;
+}
+
+footer {
+    height: fit-content;
+    padding: 1rem;
+    background-color: #6a04ed;
+    
+}
+
+footer h1  {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+footer h2{
+    font-weight: 700;
+    color: white;
+}
+
+#proyect-list {
+    list-style: gujarati;
+}
+
+li::marker {
+    font-size: 2rem;
+    color: #6a04ed;
+}
+
+@media (min-width: 640px) {
+    body {
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+    
+    #img-1 {
+        display: none;
+    }
+
+    #first-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 3rem;
+        justify-content: center;
+    }
+    
+    #first-content h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    #first-content-h1 {
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    #img-2 {
+        width: auto;
+        height: 15rem;
+    }
+
+    #presentation-div {
+        display: flex;
+        flex-direction: column;
+        max-width: fit;
+        gap: 1rem;
+    }
+
+    #presentation-div h1 {
+        font-size: 3.3rem;
+    }
+    
+    #presentation {
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-inline: 1rem;
+    }
+
+    #second-content {
+        border-radius: 0.7rem;
+        
+    }
+
+    #proyect-list {
+        list-style: gujarati;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.7rem;
+    }
+
+    footer h1 {
+        font-size: 2rem;
+    }
+
+    li::marker {
+        font-size: 2rem;
+        color: #6a04ed;
+    }
 }
