@@ -175,18 +175,13 @@ body{
 
 footer {
     height: fit-content;
-    padding: 1rem;
+    padding:  .5rem 2rem;
     background-color: #6a04ed;
     
 }
 
 footer h1  {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: white;
-}
-
-footer h2{
+    font-size: 2rem;
     font-weight: 700;
     color: white;
 }
@@ -198,6 +193,19 @@ footer h2{
 li::marker {
     font-size: 2rem;
     color: #6a04ed;
+}
+
+.repositorio-link {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: #6a04ed;
+    font-weight: 500;
+}
+#gmail {
+    color: white;
+    font-weight: 500 ;
+    font-size: 1.7rem;
 }
 
 @media (min-width: 640px) {
@@ -277,5 +285,9 @@ li::marker {
     li::marker {
         font-size: 2rem;
         color: #6a04ed;
+    }
+
+    .repositorio-link {
+        text-decoration: none;
     }
 }
